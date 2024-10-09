@@ -1,0 +1,96 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #F3C623;
+}
+
+.attribution {
+    color: white;
+    margin-top: 10vh;
+}
+
+main {
+    margin: auto;
+    width: 30vw;
+    height: 44vh;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 25vh;
+    border-radius: 1vh;
+
+    border : 1px solid black;
+}
+
+main:hover {
+    -webkit-box-shadow: 6px 10px 0px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 10px 0px -2px rgba(0,0,0,1);
+    box-shadow: 9px 9px 0px -2px rgba(0,0,0,1);
+
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        width: 15vw;
+        height: 45vh;
+    }
+}
+ .illustration {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: 2vh;
+    margin-bottom: 2vh;
+    color: black;
+}
+
+span {
+    display: block;
+    color: black;
+    background-color: #F3C623;
+    padding: 0.5vh;
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 600;
+    border-radius: 0.5vh;
+
+}
+
+div .avatar {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    gap: 1vw;
+
+}
+
+div .author {
+    width: 10%;
+}
+
+.title {
+    font-size: 10;
+    color: rgba(0,0,0,0.8);
+
+    margin-bottom: 2vh;
+}
+
+.paragraphe {
+    font-size: 15;
+    color: rgba(153, 100, 100, 0.8);
+}
+
+h3 {
+    font-size: 16px;
+}
